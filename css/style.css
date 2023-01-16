@@ -93,9 +93,12 @@ color: #FFF;
 	right: 0;
 	top: 0;
 	z-index: 9999;
+	display: grid;
+	justify-content: center;
+	align-items: center;
 }
 #pre-status, .preload-placeholder {
-	background-image:url(../preloader.gif);
+	background-image:url(../src/loaders/Ghost.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 296px;
@@ -295,7 +298,7 @@ ul.nav li.active a:before {
 	text-align: left;
 	color: #fff;
 	text-shadow: none;
-	margin-top: -130px;
+	margin-top: -240px;
 }
 .carousel-caption h1 {
 	font-size:35px;
@@ -1461,6 +1464,7 @@ body{
 	font-size: 30px;
 	color: rgb(240, 136, 136);
 }
+
 
 
 
