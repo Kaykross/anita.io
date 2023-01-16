@@ -96,18 +96,16 @@ color: #FFF;
 	display: grid;
 	justify-content: center;
 	align-items: center;
+	height: 100%;
+	width: 100%;
 }
-#pre-status, .preload-placeholder {
+/* #pre-status, .preload-placeholder {
 	background-image:url(../src/loaders/Ghost.gif);
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 296px;
-	left: 38%;
-	margin: -20px 0 0 -20px;
-	position: absolute;
-	top: 32%;
-	width: 296px;
-}
+	height: 100%;
+	width: 100%;
+} */
 .preload-placeholder {
 	background: none;
 	left: 0;

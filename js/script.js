@@ -262,22 +262,7 @@ $(document).ready(function() {
 	 /* ==============================================
   	     Parallex-javascript
   	=============================================== */
-	
-	$('#testimonials').stellar();
-$('#slider-parallax').stellar();
 
-
-    $(function(){
-
-      $.stellar({
-
-        horizontalScrolling: false,
-
-        verticalOffset: 40
-
-      });
-
-    });
 
 
 	 /* ==============================================
