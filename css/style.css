@@ -1721,7 +1721,7 @@ body{
    }
 
 .quiz-items a:hover .q-share{
-	animation-name: pulse;
+	animation-name: pulse,hvr-pulse;
 	animation-duration: 1s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
